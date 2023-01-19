@@ -1,4 +1,4 @@
-function Button({text, redirecionar}) {
+const Button = ({text, redirecionar})=>{
   
     return (
         

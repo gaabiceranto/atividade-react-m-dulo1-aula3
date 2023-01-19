@@ -1,5 +1,5 @@
-function Span(props) {
-    function Link(){
+const Span = (props) => {
+    const Link = () =>{
         window.location.href = "https://www.google.com/";
     }
     return (

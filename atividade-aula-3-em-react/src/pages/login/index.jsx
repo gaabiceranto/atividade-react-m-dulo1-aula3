@@ -7,10 +7,10 @@ import {useNavigate} from "react-router-dom";
 
 
 
-function App() {
+const App = () => {
     const navigate = useNavigate()
 
-    function vaParaHome(){
+    const vaParaHome = () => {
         navigate("/home");
 
     } 

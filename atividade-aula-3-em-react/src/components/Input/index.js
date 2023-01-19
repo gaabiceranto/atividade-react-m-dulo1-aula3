@@ -1,4 +1,4 @@
-function Input(props) {
+const Input = (props) => {
     return (
         <div class="inputForm">
             <label for = "input">{props.label}</label> 
