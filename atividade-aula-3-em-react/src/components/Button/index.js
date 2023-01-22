@@ -1,10 +1,17 @@
-const Button = ({text, redirecionar})=>{
+import { PropTypes } from "prop-types";
+
+const Button = ({text, aoClicar})=>{
   
     return (
         
-          <button onClick={redirecionar}>{text}</button>
+          <button onClick={aoClicar}>{text}</button>
         
     )
 }
 
+Button.propTypes = {
+    text: PropTypes.string,
+    aoClicar: PropTypes.func,
+
+};
 export default Button;

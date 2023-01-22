@@ -10,7 +10,7 @@ function Home(){
     return (
         <div>
             <h1>Home</h1>
-            <Button text="Volta" redirecionar={vaParaLogin} />
+            <Button text="Volta" aoClicar={vaParaLogin} />
         </div>
     )
 }
