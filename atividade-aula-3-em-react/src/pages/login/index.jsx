@@ -16,15 +16,18 @@ const App = () => {
     const [nomedeUsuario,setNomeDeUsuario] = useState("")
     const [senha,setSenha] = useState("")
     const [inputColor,setInputColor] = useState("")
-    const [usuarios, setUsuarios] = useState([
+    const [usuarios] = useState([
       {
+        id:1,
         email:"joao@hotmail.com",
         password:"oidevs",
       },
       {
+        id:2,
         email:"jady@gmail.com",
         password:"oidevs",
-      }
+      },
+      
     ]);
 
     const vaParaHome = () =>{
@@ -35,7 +38,9 @@ const App = () => {
         usuario => usuario.email === nomedeUsuario && usuario.password === senha)
 
       if (usuarioEscolhido){
-        navigate('/home')
+        navigate('/home', {state:{ listaDeUsuarios:usuarios} })
+
+
       }else {
         setShowError(true)
         setInputColor("#ff0000")
@@ -82,6 +87,9 @@ const App = () => {
       <Button text="Entrar" aoClicar={vaParaHome} />
       <Button text="Trocar título" aoClicar={mudarTitulo} />
       <Span span="Esqueceu a senha?"/>
+
+    
+
     </div>
   );
 }

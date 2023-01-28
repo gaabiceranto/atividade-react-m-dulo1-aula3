@@ -2,8 +2,8 @@ import { PropTypes } from "prop-types";
 
 const Input = ({label, hideContent, aoMudar, cor}) => {
     return (
-        <div class="inputForm">
-            <label style={{color:cor}} for = "input"  >{label}</label> 
+        <div className="inputForm">
+            <label style={{color:cor}}   >{label}</label> 
             <input type={hideContent ? "password" : "text"}  name="input" onChange={aoMudar}  />
         </div>
     )

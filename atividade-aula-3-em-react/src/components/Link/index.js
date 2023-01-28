@@ -3,7 +3,7 @@ const Span = (props) => {
         window.location.href = "https://www.google.com/";
     }
     return (
-        <div class="divSpan">
+        <div className="divSpan">
           <span onClick={Link}>{props.span}</span>
         </div>
     )
