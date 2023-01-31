@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/atividades-react-modulo1/static/css/main.e9c33813.css",
-    "main.js": "/atividades-react-modulo1/static/js/main.14e9e522.js",
-    "static/js/787.fb833d3e.chunk.js": "/atividades-react-modulo1/static/js/787.fb833d3e.chunk.js",
-    "index.html": "/atividades-react-modulo1/index.html",
-    "main.e9c33813.css.map": "/atividades-react-modulo1/static/css/main.e9c33813.css.map",
-    "main.14e9e522.js.map": "/atividades-react-modulo1/static/js/main.14e9e522.js.map",
-    "787.fb833d3e.chunk.js.map": "/atividades-react-modulo1/static/js/787.fb833d3e.chunk.js.map"
+    "main.css": "/atividade-aula-3-em-react/static/css/main.e9c33813.css",
+    "main.js": "/atividade-aula-3-em-react/static/js/main.b0df48ff.js",
+    "static/js/787.fb833d3e.chunk.js": "/atividade-aula-3-em-react/static/js/787.fb833d3e.chunk.js",
+    "index.html": "/atividade-aula-3-em-react/index.html",
+    "main.e9c33813.css.map": "/atividade-aula-3-em-react/static/css/main.e9c33813.css.map",
+    "main.b0df48ff.js.map": "/atividade-aula-3-em-react/static/js/main.b0df48ff.js.map",
+    "787.fb833d3e.chunk.js.map": "/atividade-aula-3-em-react/static/js/787.fb833d3e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9c33813.css",
-    "static/js/main.14e9e522.js"
+    "static/js/main.b0df48ff.js"
   ]
 }
