@@ -19,12 +19,38 @@ const App = () => {
     const [usuarios] = useState([
       {
         id:1,
-        email:"joao@hotmail.com",
+        name:"marcelo",
+        email:"marcelo@hotmail.com",
         password:"oidevs",
       },
       {
         id:2,
-        email:"jady@gmail.com",
+        name:"rafael",
+        email:"rafael@gmail.com",
+        password:"oidevs",
+      },
+      {
+        id:3,
+        name:"vitoria",
+        email:"vitoria@gmail.com",
+        password:"oidevs",
+      },
+      {
+        id:4,
+        name:"daniela",
+        email:"daniela@gmail.com",
+        password:"oidevs",
+      },
+      {
+        id:5,
+        name:"taila",
+        email:"taila@gmail.com",
+        password:"oidevs",
+      },
+      {
+        id:6,
+        name:"marcos",
+        email:"marcos@gmail.com",
         password:"oidevs",
       },
       
@@ -38,7 +64,7 @@ const App = () => {
         usuario => usuario.email === nomedeUsuario && usuario.password === senha)
 
       if (usuarioEscolhido){
-        navigate('/home', {state:{ listaDeUsuarios:usuarios} })
+        navigate('/home', {state:{ listaDeUsuarios:usuarios, UsuArio: usuarioEscolhido}})
 
 
       }else {
